@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+.custom-nav{
+  background-color: #5e086c !important;
+  color: white !important;
+  height: 85px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.custom-button{
+  background-color: #5e086c !important;
+  color: white !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.starIcon{
+  color: green;
+  margin: 5px;
 }
+.custom-head{
+  background-color: #5e086c !important;
+  color: white !important;
+}
+.custom-card{
+  border-radius: 20px !important;
+  /* overflow: hidden; */
+  height: 500px;
+  overflow: auto;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.custom-search{
+  border: 1px solid gray;
+  border-radius: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: white;
+  padding:0px 10px
 }
-
-.App-link {
-  color: #61dafb;
+.custom-input{
+border: unset !important;
+width: calc(100% - 30px) !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-icon{
+  width: 25px;
+  height: 25px;
+  margin-top: 7px;
+}
+.custom-brand{
+width: 30%;
+}
+.nav-link{
+  color: white !important;
+}
+.profile-container{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.profile-img{
+  width: 40px;
+  height: 40px;
 }
